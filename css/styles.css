@@ -1,0 +1,98 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --sombra-padrao: 0rem 0.25rem 0.25rem  rgba(0, 0, 0, 0.25);
+}
+
+html{
+    font-size: 16px;
+}
+
+img{
+    height: 90%;
+    max-width: 100%;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+#header {
+    background-color: black;
+    text-align: center;
+    height: 10vh;
+}
+
+#aviso {
+    font-size: 3.375rem;
+    font-weight: bold;
+    margin-top: 1.25rem;
+    text-align: center;
+    text-shadow: var(--sombra-padrao);
+}
+
+form div{
+    margin: 0 auto;
+}
+
+#forms input{
+    border: 0.0625rem solid black;
+    border-radius: 0.625rem;
+}
+label{
+    text-shadow: var(--sombra-padrao);
+}
+
+#forms select{
+    border: 0.0625rem solid black;
+    border-radius: 0.625rem;
+}
+
+#forms a {
+    color: #0000ee;
+    text-shadow: var(--sombra-padrao);
+}
+
+#botaoFinal {
+    text-align: center;
+}
+
+#botaoCadastrar {
+    color: #32a066;
+    border: 0.0625rem solid #32a066;
+    border-radius: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 3.375rem;
+    font-weight: bold;
+    width: 80%;
+    text-shadow: var(--sombra-padrao);
+    box-shadow: inset var(--sombra-padrao);
+    background: rgba(217, 217, 217, 0.3);
+}
+
+#botaoCadastrar:hover, #botaoModal:hover{
+    background-color: #32a066;
+    color: white;
+}
+
+form{
+    height: 62vh;
+    margin: 3.125rem auto;
+}
+
+#botaoModal{
+    color: #32a066;
+    border: 0.0625rem solid #32a066;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    text-shadow: var(--sombra-padrao);
+    background-color: transparent;
+}
+
+#janela {
+    height: 90vh;
+}
+
